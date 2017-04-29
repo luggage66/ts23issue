@@ -8,9 +8,11 @@ export default class FooComponent extends React.Component<any, void> {
         // let buttonProps: object;
 
         // with this line, it will not
-        let buttonProps;
+        let buttonProps; // any
 
-        buttonProps.onClick = () => undefined;
+        buttonProps = {
+            onClick: () => undefined
+        };
 
         return <button {...buttonProps}>
             <span className={cx('class1', { class2: true })} />
