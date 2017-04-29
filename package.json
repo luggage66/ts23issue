@@ -1,0 +1,14 @@
+{
+  "name": "ts23issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^15.0.23",
+    "classnames": "^2.2.5",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "tslib": "^1.6.1",
+    "typescript": "^2.3.2"
+  }
+}
