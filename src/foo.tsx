@@ -4,8 +4,6 @@ import * as cx from 'classnames';
 export default class FooComponent extends React.Component<any, void> {
 
     render() {
-        let goto = this.props.goto;
-
         // with this line, it'll include the 'classnames' lib
         // let buttonProps: object;
 
